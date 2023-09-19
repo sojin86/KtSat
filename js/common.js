@@ -178,7 +178,7 @@ window.onload = function () {
     // pg3 스크롤 하면 text 고정
     const content = document.querySelector('.pg3_hd_tt');
     window.addEventListener('scroll', function () {
-        if (window.scrollY > 1650) {
+        if (window.scrollY > 1700) {
             content.classList.add('fixed');
         } else {
             content.classList.remove('fixed');
